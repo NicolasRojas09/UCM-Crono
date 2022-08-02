@@ -1,6 +1,5 @@
 let continuar = true
 function PelisNecesarias(){
-    debugger
     do {
         let peli = prompt("ingrese una de las tres peliculas").toLocaleLowerCase()
         if(peli == "avengers"){
