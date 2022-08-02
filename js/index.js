@@ -1,4 +1,4 @@
-let continuar = true
+let continuar = false
 
 function PelisNecesarias(){
     do {
@@ -12,6 +12,6 @@ function PelisNecesarias(){
         if(peli == "iron man 2"){
             alert("Deberas haber visto antes si o si: Iron Man")
         }
-        let continuar = confirm ("desea continuar?")
+        continuar = confirm ("desea continuar?")
     }while(continuar)
 }
