@@ -1,4 +1,5 @@
 let continuar = true
+
 function PelisNecesarias(){
     do {
         let peli = prompt("ingrese una de las tres peliculas").toLocaleLowerCase()
