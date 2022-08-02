@@ -1,20 +1,17 @@
-debugger
-let errado = true
-let iniciar = confirm("desea iniciar el test?")
-if(iniciar){
-    let usuario = prompt("ingrese su nombre")
-    do{
-        let resultado = prompt("resuelva 5 + 2")
-        let resultado2 = prompt("resuelva 5 + 5")
-        if(((resultado == 7)&&(resultado2 == 10))||(usuario == "Hawking")){
-            console.log("Perfecto eres un genio")
-            alert("Perfecto eres un genio")
-            errado = false
+let continuar = true
+function PelisNecesarias(){
+    debugger
+    do {
+        let peli = prompt("ingrese una de las tres peliculas").toLocaleLowerCase()
+        if(peli == "avengers"){
+            alert("Deberas haber visto antes si o si: Iron man, Iron man 2, Capitán América y Thor")
         }
-        else{
-            console.warn("intentalo de nuevo")
-            alert("intentalo de nuevo")
-            errado = true
+        if(peli == "dr strange 2"){
+            alert("Deberas haber visto antes si o si: Dr Strange, Wanda Vision, What if y Spider-Man: No Way Home")
         }
-    }while(errado)
+        if(peli == "iron man 2"){
+            alert("Deberas haber visto antes si o si: Iron Man")
+        }
+        let continuar = confirm ("desea continuar?")
+    }while(continuar)
 }
