@@ -45,3 +45,70 @@ function buscarPelicula(){
         alert("Esa pelicula no pertenece a la fase 1, por las dudas revise haber puesto bien el nombre y haber respetado las Mayusculas y minusculas")
     }
 }
+
+const ordenes = [{ordenC: 'Orden Cronologico por Año', valor: 1},
+                 {ordenC: 'Orden Cronologico por Historia', valor: 2}]
+
+const orden = document.querySelector("#orden")
+const btnGenerar = document.querySelector("button.generarOrden")
+
+const cargarOrdenes = (select, array)=> {
+    if (array.length > 0) {
+        array.forEach(elemento => {
+            select.innerHTML += `<option value="${elemento.valor}">${elemento.ordenC}</option>`
+        });
+    }
+}
+cargarOrdenes(orden, ordenes)
+
+const ordenSeleccionada = () =>{
+    if(orden.value === "1"){
+        return 1
+    }
+    if(orden.value !== "1" && orden.value !== "..."){
+        return 2
+    }
+}
+
+const mostrarLista = ()=> {
+    if(ordenSeleccionada() === 1){
+        const cuerpo = document.querySelector("#tablaPelis")
+        cuerpo.innerHTML = ""
+        Peliculas.sort((a, b) => {
+            if (a.ordenSalida > b.ordenSalida) {
+                return 1
+            }
+            if (a.ordenSalida < b.ordenSalida) {
+                return -1
+            }
+            return 0
+            })
+        Peliculas.forEach(pelicula => {
+        cuerpo.innerHTML += `<tr>
+                             <td>${pelicula.nombre}</td>
+                             <td>${pelicula.year}</td>
+                             </tr>`
+        })
+    }
+    if(ordenSeleccionada() === 2){
+        const cuerpo = document.querySelector("#tablaPelis")
+        cuerpo.innerHTML = ""
+        Peliculas.sort((a, b) => {
+        if (a.ordenHistoria > b.ordenHistoria) {
+            return 1
+        }
+        if (a.ordenHistoria < b.ordenHistoria) {
+            return -1
+        }
+        return 0
+        })
+        Peliculas.forEach(pelicula => {
+        cuerpo.innerHTML += `<tr>
+                             <td>${pelicula.nombre}</td>
+                             <td>${pelicula.year}</td>
+                             </tr>`
+        })
+    }
+}
+
+btnGenerar.addEventListener("click", mostrarLista)

@@ -1,9 +1,29 @@
 .paddingDe20{
     padding: 20px;
 }
+.paddingLeftDe10{
+    padding-left: 10px;
+}
 .fondo{
     background-color: rgb(19, 19, 19);
 }
 .letrasBlancas{
-    color:lightgray;
+    color:white;
+}
+.ucm{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 2px 10px 8px 10px;
+}
+.crono{
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+.titulo{
+    text-align: center;
 }
