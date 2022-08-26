@@ -36,7 +36,7 @@ const mostrarLista = ()=> {
             })
         Peliculas.forEach(pelicula => {
             cuerpo.innerHTML += `<div class="card text-bg-dark m-1" style="width: 12rem;">
-                                    <img src="/imagenes/${pelicula.imagen}.jpg" class="card-img-top imagenTamaño">
+                                    <img src="./imagenes/${pelicula.imagen}.jpg" class="card-img-top imagenTamaño">
                                     <div class="card-body d-flex flex-column justify-content-between">
                                         <h5 class="card-title titulo">${pelicula.nombre}</h5>
                                         <p class="card-text titulo">Year: ${pelicula.year} <button id="${pelicula.imagen}" class="position-absolute bottom-0 end-0 btn btn-dark">+</button></p>
@@ -58,7 +58,7 @@ const mostrarLista = ()=> {
         })
         Peliculas.forEach(pelicula => {
         cuerpo.innerHTML += `<div class="card text-bg-dark m-1" style="width: 12rem;">
-                                <img src="/imagenes/${pelicula.imagen}.jpg" class="card-img-top imagenTamaño">
+                                <img src="./imagenes/${pelicula.imagen}.jpg" class="card-img-top imagenTamaño">
                                 <div class="card-body d-flex flex-column justify-content-between">
                                     <h5 class="card-title titulo">${pelicula.nombre}</h5>
                                     <p class="card-text titulo">Year: ${pelicula.year} <button id="${pelicula.imagen}" class="position-absolute bottom-0 end-0 btn btn-dark">+</button></p>
