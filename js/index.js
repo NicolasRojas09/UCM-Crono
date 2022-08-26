@@ -84,6 +84,3 @@ const recorrerBtn = (valorBtn)=> {
 }                     
 
 btnGenerar.addEventListener("click", mostrarLista)
-
-
-
