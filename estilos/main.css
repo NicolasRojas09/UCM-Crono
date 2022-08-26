@@ -27,3 +27,18 @@
 .titulo{
     text-align: center;
 }
+.imagenTamaño{
+    width: 100px;
+    height: 280px;
+}
+.imagenDetalle{
+    width: 230px;
+    height: 350px;
+}
+.borderBlanco{
+    border: solid 2px white;
+}
+.videoT{
+    width: 96%;
+    height: 35rem;
+}
