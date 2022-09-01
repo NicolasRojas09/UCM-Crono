@@ -23,64 +23,32 @@ const ordenSeleccionada = () =>{
 
 const mostrarLista = ()=> {
     if(ordenSeleccionada() === 1){
-        const cuerpo = document.querySelector("#cajaCards")
-        cuerpo.innerHTML = ""
-        Peliculas.sort((a, b) => {
-            if (a.ordenSalida > b.ordenSalida) {
-                return 1
-            }
-            if (a.ordenSalida < b.ordenSalida) {
-                return -1
-            }
-            return 0
-            })
-        Peliculas.forEach(pelicula => {
-            cuerpo.innerHTML += `<div class="card text-bg-dark m-1" style="width: 12rem;">
-                                    <img src="./imagenes/${pelicula.imagen}.jpg" class="card-img-top imagenTamaño">
-                                    <div class="card-body d-flex flex-column justify-content-between">
-                                        <h5 class="card-title titulo">${pelicula.nombre}</h5>
-                                        <p class="card-text titulo">Year: ${pelicula.year} <button id="${pelicula.imagen}" class="position-absolute bottom-0 end-0 btn btn-dark">+</button></p>
-                                    </div>
-                                 </div>`
-        })
+        ifValoruno()
     }
     if(ordenSeleccionada() === 2){
-        const cuerpo = document.querySelector("#cajaCards")
-        cuerpo.innerHTML = ""
-        Peliculas.sort((a, b) => {
-        if (a.ordenHistoria > b.ordenHistoria) {
-            return 1
-        }
-        if (a.ordenHistoria < b.ordenHistoria) {
-            return -1
-        }
-        return 0
-        })
-        Peliculas.forEach(pelicula => {
-        cuerpo.innerHTML += `<div class="card text-bg-dark m-1" style="width: 12rem;">
-                                <img src="./imagenes/${pelicula.imagen}.jpg" class="card-img-top imagenTamaño">
-                                <div class="card-body d-flex flex-column justify-content-between">
-                                    <h5 class="card-title titulo">${pelicula.nombre}</h5>
-                                    <p class="card-text titulo">Year: ${pelicula.year} <button id="${pelicula.imagen}" class="position-absolute bottom-0 end-0 btn btn-dark">+</button></p>
-                                </div>
-                             </div>`
-        })
+        ifValordos()
     }
-    
-    // Peliculas.forEach(pelicula => {
-    //     debugger
-    //     const btnDetalle = document.querySelector(`#${pelicula.imagen}`)
-    //     btnDetalle.addEventListener("click", recorrerBtn(pelicula.imagen))
-    //     if(recorrerBtn(pelicula.imagen)){
-    //         console.log(resultado)
-    //     }
-    // })
-
 }
 
-const recorrerBtn = (valorBtn)=> {
+function recorrerBtn(valorBtn) {
     const resultado = Peliculas.find((pelicula) => pelicula.imagen === valorBtn)
-    console.log(resultado)
-}                     
+    crearDetallado(resultado)
+}    
+function fechasUCM() {
+    const DateTime = luxon.DateTime
+    const inicioUCM = DateTime.fromObject(
+        {day: 30, month: 4, year: 2008}
+    )
+    const now = DateTime.now()
+    const resta = now.minus({year: 2008})
+    const inicioTxtEspera = document.querySelector("#textoDeEspera")
+    inicioTxtEspera.innerHTML = ""
+    inicioTxtEspera.innerHTML = `   <p class="letrasBlancas titulo">El Universo Cinematografico de Marvel inicio el ${inicioUCM.day}/${inicioUCM.month}/${inicioUCM.year} <br>
+                                        y nos entrego increibles historias hasta el dia de hoy. <br>
+                                        Marvel lleva creando este maravilloso Universo por más de ${resta.year} años, <br>
+                                        y esperemos que por muchos mas.</p>
+                                        <img src="./imagenes/Marvel_Cinematic_Universe_logo.png" class="logoUcm" alt="Marvel Cinematic Universe">`
+}
+fechasUCM()
 
 btnGenerar.addEventListener("click", mostrarLista)
