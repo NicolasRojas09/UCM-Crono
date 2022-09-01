@@ -3,7 +3,7 @@ const crearDetallado = (resultado)=> {
     detallar.innerHTML = ""
     detallar.innerHTML = `<div class="d-flex ms-4 mt-4 me-4">
                             <div class="d-flex flex-column">
-                                <img src="/imagenes/${resultado.imagen}.jpg" class="imagenDetalle">
+                                <img src="./imagenes/${resultado.imagen}.jpg" class="imagenDetalle">
                             </div>
                             <div class="d-flex flex-column">
                                 <h4 class="titulo">${resultado.nombre}  |  Año: ${resultado.year}</h4>
