@@ -27,7 +27,6 @@ const cargarOrdenes = (select, array)=> {
     }
 }
 cargarOrdenes(orden, ordenes)
-
 const ordenSeleccionada = () =>{
     if(orden.value === "1"){
         return 1
