@@ -2,7 +2,7 @@ const ordenes = [{ordenC: 'Orden Cronologico por Año', valor: 1},
                  {ordenC: 'Orden Cronologico por Historia', valor: 2}]
 const orden = document.querySelector("#orden")
 const btnGenerar = document.querySelector("button.generarOrden")
-const URL = "/peliculas.json"
+const URL = "../json/peliculas.json"
 let Peliculas = []
 
 const peticionFetch = async ()=> {
