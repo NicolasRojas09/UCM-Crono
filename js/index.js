@@ -2,6 +2,22 @@ const ordenes = [{ordenC: 'Orden Cronologico por Año', valor: 1},
                  {ordenC: 'Orden Cronologico por Historia', valor: 2}]
 const orden = document.querySelector("#orden")
 const btnGenerar = document.querySelector("button.generarOrden")
+const URL = "../peliculas.json"
+let Peliculas = []
+
+const peticionFetch = async ()=> {
+    const response = await fetch(URL)
+    const data = await response.json()
+          return data
+}
+const cargarContenido = async ()=> {
+        try {
+            Peliculas = await peticionFetch()
+        } catch (error) {
+            alert("No se pudo cargar el contenido, vuelva a intentarlo mas tarde")
+        } 
+}
+cargarContenido()
 
 const cargarOrdenes = (select, array)=> {
     if (array.length > 0) {

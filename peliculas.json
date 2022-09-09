@@ -1,0 +1,326 @@
+[
+    {
+        "ordenHistoria": 3,
+        "ordenSalida": 0,
+        "nombre": "Iron Man",
+        "year": 2008,
+        "imagen": "Iron_Man",
+        "trailer": "https://www.youtube.com/embed/EVFUfCUZbxk",
+        "sinopsis": "Tony Stark es un inventor de armamento brillante que es secuestrado en el extranjero. Sus captores son unos terroristas que le obligan a construir una máquina destructiva pero Tony se construirá una armadura para poder enfrentarse a ellos y escapar."
+    },
+    {
+        "ordenHistoria": 4,
+        "ordenSalida": 1,
+        "nombre": "The Incredible Hulk",
+        "year": 2008,
+        "imagen": "The_incredible_Hulk",
+        "trailer": "https://www.youtube.com/embed/i2ueewdSiJg",
+        "sinopsis": "Bruce Banner recorre el mundo en busca de un antídoto para librarse de su alter ego. Además tendrá que hacer frente a Emil, un nuevo enemigo, lo que convertirá a Nueva York en el escenario de la última batalla entre las dos criaturas más poderosas."
+    },
+    {
+        "ordenHistoria": 5,
+        "ordenSalida": 2,
+        "nombre": "Iron Man 2",
+        "year": 2010,
+        "imagen": "Iron_Man_2",
+        "trailer": "https://www.youtube.com/embed/IyPm8UlzOgU?start=20",
+        "sinopsis": "Con el mundo ahora consciente de que él es Iron Man, el millonario inventor Tony Stark debe forjar nuevas alianzas y enfrentarse a un nuevo y poderoso enemigo."
+    },
+    {
+        "ordenHistoria": 6,
+        "ordenSalida": 3,
+        "nombre": "Thor",
+        "year": 2011,
+        "imagen": "Thor",
+        "trailer": "https://www.youtube.com/embed/n65Lkc-5zjQ",
+        "sinopsis": "Tras desatar una antigua guerra, el codicioso guerrero Thor es desterrado a la Tierra por su padre para que viva entre los hombres y descubra así el verdadero sentido de la humildad. Allí, sin sus poderes, Thor deberá enfrentarse a las fuerzas más oscuras que su mayor enemigo le enviará desde Asgard."
+    },
+    {
+        "ordenHistoria": 0,
+        "ordenSalida": 4,
+        "nombre": "Captain America: The First Avenger",
+        "year": 2011,
+        "imagen": "Capitan_America_1",
+        "trailer": "https://www.youtube.com/embed/JnL7sjclx8k?start=7",
+        "sinopsis": "Tras tres meses de someterse a un programa de entrenamiento físico y táctico, Steve Rogers es encomendado su primera misión como Capitán América. Armado con un escudo indestructible, emprenderá la guerra contra el Mal como líder de los Vengadores."
+    },
+    {
+        "ordenHistoria": 7,
+        "ordenSalida": 5,
+        "nombre": "The Avengers",
+        "year": 2012,
+        "imagen": "The_Avengers_1",
+        "trailer": "https://www.youtube.com/embed/4mwtDHovB3w",
+        "sinopsis": "El director de la Agencia SHIELD decide reclutar a un equipo para salvar al mundo de un desastre casi seguro cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial."
+    },
+    {
+        "ordenHistoria": 8,
+        "ordenSalida": 6,
+        "nombre": "Iron Man 3",
+        "year": 2013,
+        "imagen": "Iron_Man_3",
+        "trailer": "https://www.youtube.com/embed/bKWvs_yCT6c",
+        "sinopsis": "El descarado y brillante Tony Stark, tras ver destruido todo su universo personal, debe encontrar y enfrentarse a un enemigo cuyo poder no conoce límites. Este viaje pondrá a prueba su entereza una y otra vez, y le obligará a confiar en su ingenio."
+    },
+    {
+        "ordenHistoria": 9,
+        "ordenSalida": 7,
+        "nombre": "Thor: The Dark World",
+        "year": 2013,
+        "imagen": "Thor_TheDarkWorld",
+        "trailer": "https://www.youtube.com/embed/wyaK5HoeBJU",
+        "sinopsis": "Malekith, un enemigo más antiguo que el universo, regresa a la Tierra para cumplir su plan destructor. Thor debe enfrentarse a un rival al que ni siquiera Odín parece poder detener y, desesperado, libera a su hermano Loki para que lo ayude."
+    },
+    {
+        "ordenHistoria": 10,
+        "ordenSalida": 8,
+        "nombre": "Captain America: The Winter Soldier",
+        "year": 2014,
+        "imagen": "Capitan_America_2",
+        "trailer": "https://www.youtube.com/embed/FmXjNGVpXUc",
+        "sinopsis": "Tras los devastadores acontecimientos vividos en Nueva York, el superhéroe vive tranquilamente en Washington D.C., intentando adaptarse al mundo moderno. Sin embargo, cuando un colega de el es amenazado, Rogers se ve envuelto en una trama de intrigas."
+    },
+    {
+        "ordenHistoria": 11,
+        "ordenSalida": 9,
+        "nombre": "Guardians of the Galaxy",
+        "year": 2014,
+        "imagen": "Guardianes_de_la_galaxia",
+        "trailer": "https://www.youtube.com/embed/uvUMGJ66IfU",
+        "sinopsis": "El temerario aventurero Peter Quill, tras robar una misteriosa esfera codiciada por Ronan, un poderoso villano cuyas ambiciones amenazan a todo el universo, se convierte en la presa más codiciada por todos los cazarrecompensas de la galaxia."
+    },
+    {
+        "ordenHistoria": 13,
+        "ordenSalida": 10,
+        "nombre": "Avengers: Age of Ultron",
+        "year": 2015,
+        "imagen": "Avengers_AgeOfUltron",
+        "trailer": "https://www.youtube.com/embed/hTCQgyrIt8g",
+        "sinopsis": "Tony Stark quiere lanzar un nuevo programa de paz, pero algo sale mal y acaba creando a Ultrón, un robot que quiere destruir a la humanidad. Los Vengadores deberán juntar sus fuerzas una vez más para luchar contra el robot. En su camino conocerán a dos nuevos misteriosos compañeros, Pietro y Wanda Maximoff, conocidos como Quicksilver y Bruja Escarlata."
+    },
+    {
+        "ordenHistoria": 14,
+        "ordenSalida": 11,
+        "nombre": "Ant-Man",
+        "year": 2015,
+        "imagen": "Ant_Man",
+        "trailer": "https://www.youtube.com/embed/mBv4FSyg-P4",
+        "sinopsis": "El doctor Hank Pym anuncia que abandona S.H.I.E.L.D. tras descubrir que han tratado de apropiarse de la tecnología de su Ant-Man, que Pym considera altamente peligrosa. Varios años después, Scott Lang sale de prisión tras cumplir tres años de condena por robo."
+    },
+    {
+        "ordenHistoria": 15,
+        "ordenSalida": 12,
+        "nombre": "Captain America: Civil War",
+        "year": 2016,
+        "imagen": "Capitan_America_CivilWar",
+        "trailer": "https://www.youtube.com/embed/IZAfpXFY3xw",
+        "sinopsis": "Mientras intentan detener a Rumlow en Lagos, Capitán América, Falcon, Viuda Negra y Bruja Escarlata se ven obligados a realizar una intervención para evitar el robo de una muestra letal en el Instituto de Enfermedades Infecciosas."
+    },
+    {
+        "ordenHistoria": 18,
+        "ordenSalida": 13,
+        "nombre": "Doctor Strange",
+        "year": 2016,
+        "imagen": "Dr_Strange",
+        "trailer": "https://www.youtube.com/embed/ingOz2WNFjw",
+        "sinopsis": "La vida del famoso neurocirujano Dr. Stephen Strange cambia para siempre cuando un terrible accidente de coche le arrebata el uso de sus manos. Cuando la medicina tradicional le falla, busca la curación en un lugar misterioso llamado Kamar-Taj, que no solo es un centro de curación sino también el frente de una batalla contra fuerzas oscuras ocultas. Strange, armado con poderes mágicos recién adquiridos, debe elegir si regresar a su antigua vida o defender el mundo como su hechicero más poderoso."
+    },
+    {
+        "ordenHistoria": 12,
+        "ordenSalida": 14,
+        "nombre": "Guardians of the Galaxy Vol. 2",
+        "year": 2017,
+        "imagen": "guardians-of-the-galaxy-vol2",
+        "trailer": "https://www.youtube.com/embed/1jd55ph3oqQ",
+        "sinopsis": "Una poderosa raza alienígena contrata a los Guardianes para que protejan sus valiosas baterías de energía, pero, cuando Rocket las roba, los alienígenas envían a sus tropas de combate a vengarse de los Guardianes. Mientras tratan de escapar con vida, intentan resolver el misterio de los verdaderos orígenes de Peter Quill."
+    },
+    {
+        "ordenHistoria": 19,
+        "ordenSalida": 15,
+        "nombre": "Spider-Man: Homecoming",
+        "year": 2017,
+        "imagen": "Spider_Man_Homecoming",
+        "trailer": "https://www.youtube.com/embed/sfPWvYKKAJ4",
+        "sinopsis": "Peter Parker asume su nueva identidad como Spider-Man y regresa a vivir con su tía después de su aventura con los Vengadores. Al volver, mientras sigue bajo la tutela de Tony Stark, descubre que ha surgido un nuevo y despiadado enemigo que pretende destruir todo lo que ama: el Buitre."
+    },
+    {
+        "ordenHistoria": 21,
+        "ordenSalida": 16,
+        "nombre": "Thor: Ragnarok",
+        "year": 2017,
+        "imagen": "Thor_Ragnarok",
+        "trailer": "https://www.youtube.com/embed/CM0rr8SPdlI",
+        "sinopsis": "Thor está preso en el otro extremo del universo. Necesita regresar a tiempo para evitar que la todopoderosa Hela destruya su mundo, pero para escapar de su confinamiento y evitar el apocalipsis tendrá que vencer antes al increíble Hulk en un torneo de gladiadores."
+    },
+    {
+        "ordenHistoria": 17,
+        "ordenSalida": 17,
+        "nombre": "Black Panther",
+        "year": 2018,
+        "imagen": "Black_Panther",
+        "trailer": "https://www.youtube.com/embed/JcIye2DaZwI",
+        "sinopsis": "Hace millones de años, un meteorito de poderoso vibranium impactó en África. Cuando llegó la era del hombre, la mayoría de los habitantes de aquel territorio se unieron bajo el mando de un guerrero chamán que, gracias al vibranium, adquirió fuerza, velocidad e instinto sobrehumano, convirtiéndose en el primer Black Panther."
+    },
+    {
+        "ordenHistoria": 22,
+        "ordenSalida": 18,
+        "nombre": "Avengers: Infinity War",
+        "year": 2018,
+        "imagen": "Avengers_Infinity_War",
+        "trailer": "https://www.youtube.com/embed/aAoKqx9wb1I",
+        "sinopsis": "Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito: poder, tiempo, alma, realidad, mente y espacio, nadie podrá detenerlo."
+    },
+    {
+        "ordenHistoria": 20,
+        "ordenSalida": 19,
+        "nombre": "Ant-Man and the Wasp",
+        "year": 2018,
+        "imagen": "Ant_Man_y_la_Avispa",
+        "trailer": "https://www.youtube.com/embed/1xdCWAagZfw",
+        "sinopsis": "Scott Lang vuelve a enfundarse el traje de Ant-Man para pelear codo a codo junto con la Avispa. La misión revela a los dos superhéroes un secreto terrible y los enfrenta a su enemigo más poderoso."
+    },
+    {
+        "ordenHistoria": 1,
+        "ordenSalida": 20,
+        "nombre": "Captain Marvel",
+        "year": 2019,
+        "imagen": "captain_marvel",
+        "trailer": "https://www.youtube.com/embed/6XkN-MFNZpI",
+        "sinopsis": "La guerrera Vers no recuerda su pasado, el cual vuelve a ella en sueños. A pesar de sus problemas para controlar sus emociones y, con ellas, sus poderes, la Inteligencia Suprema le permite participar en una misión. Con la ayuda de Nick Fury tratará de descubrir los secretos de su pasado mientras aprovecha sus poderes para acabar con la guerra."
+    },
+    {
+        "ordenHistoria": 23,
+        "ordenSalida": 21,
+        "nombre": "Avengers: Endgame",
+        "year": 2019,
+        "imagen": "avengers_endgame",
+        "trailer": "https://www.youtube.com/embed/znk2OICHbjY",
+        "sinopsis": "Después de los eventos devastadores de Avengers: Infinity War, el universo está en ruinas debido a las acciones de Thanos, el Titán Loco. Con la ayuda de los aliados que quedaron, los Vengadores deberán reunirse una vez más para intentar detenerlo y restaurar el orden en el universo de una vez por todas."
+    },
+    {
+        "ordenHistoria": 26,
+        "ordenSalida": 22,
+        "nombre": "Spider-Man: Far From Home",
+        "year": 2019,
+        "imagen": "Spider_Man_Lejos_de_casa",
+        "trailer": "https://www.youtube.com/embed/PE3L0HHtOV0",
+        "sinopsis": "Peter Parker decide pasar unas merecidas vacaciones en Europa junto a MJ, Ned y el resto de sus amigos. Sin embargo, Peter debe volver a ponerse el traje de Spider-Man cuando Nick Fury le encomienda una nueva misión: frenar el ataque de unas criaturas que están causando el caos en el continente."
+    },
+    {
+        "ordenHistoria": 24,
+        "ordenSalida": 23,
+        "nombre": "WandaVision",
+        "year": 2021,
+        "imagen": "WandaVision",
+        "trailer": "https://www.youtube.com/embed/UuhqbcMNrME",
+        "sinopsis": "Tres semanas después de los eventos de Avengers: Endgame (2019), Wanda Maximoff y Visión están viviendo una vida de ensueño en la pequeña ciudad de Westview, Nueva Jersey, tratando de ocultar sus verdaderas naturalezas. Pero a medida que pasan por nuevas décadas y cambian de escenarios televisivos, la pareja empieza a sospechar que las cosas no son lo que parecen."
+    },
+    {
+        "ordenHistoria": 25,
+        "ordenSalida": 24,
+        "nombre": "The Falcon and the Winter Soldier",
+        "year": 2021,
+        "imagen": "Falcon_and_the_WinterSoldier",
+        "trailer": "https://www.youtube.com/embed/nxyckmizMUo",
+        "sinopsis": "Seis meses después de recibir el manto de Capitán América al final de Avengers: Endgame (2019), Sam Wilson se une a Bucky Barnes en una misión global para detener a un grupo antipatriotista, los Flag Smashers, que están mejorados con una recreación del suero del súper soldado y creen que el mundo era mejor durante el Blip."
+    },
+    {
+        "ordenHistoria": 27,
+        "ordenSalida": 25,
+        "nombre": "Loki",
+        "year": 2021,
+        "imagen": "Loki",
+        "trailer": "https://www.youtube.com/embed/hXKnQpk1DZM",
+        "sinopsis": "Después de robar el Teseracto durante los eventos de Avengers: Endgame (2019), una versión alternativa de Loki es llevada ante la misteriosa organización llamada Autoridad de Variación Temporal, una organización burocrática que existe fuera del tiempo y el espacio, y monitorea la línea de tiempo. Le dan a Loki una opción: enfrentarse a ser borrado de la existencia debido a que es una «variante de tiempo» o ayudar a arreglar la línea de tiempo y detener una amenaza mayor. Loki termina atrapado en su propio thriller criminal, viajando en el tiempo."
+    },
+    {
+        "ordenHistoria": 16,
+        "ordenSalida": 26,
+        "nombre": "Black Widow",
+        "year": 2021,
+        "imagen": "black_widow",
+        "trailer": "https://www.youtube.com/embed/Cy_znrsuXic",
+        "sinopsis": "Una peligrosa conspiración, relacionada con su pasado, persigue a Natasha Romanoff, también conocida como Viuda Negra. La agente tendrá que lidiar con las consecuencias de haber sido espía, así como con las relaciones rotas, para sobrevivir."
+    },
+    {
+        "ordenHistoria": 28,
+        "ordenSalida": 27,
+        "nombre": "What If...?",
+        "year": 2021,
+        "imagen": "What_if",
+        "trailer": "https://www.youtube.com/embed/DexqOGh_tzQ",
+        "sinopsis": "Tras el establecimiento del multiverso en el final de la primera temporada de Loki, What If...? explora varias líneas de tiempo alternativas del multiverso en el que los momentos principales de las películas del Universo cinematográfico de Marvel (UCM) ocurren de manera diferente, según lo observado por el Vigilante."
+    },
+    {
+        "ordenHistoria": 31,
+        "ordenSalida": 28,
+        "nombre": "Shang-Chi and the Legend of the Ten Rings",
+        "year": 2021,
+        "imagen": "Shang_Chi",
+        "trailer": "https://www.youtube.com/embed/Y_SS9K4N0K0",
+        "sinopsis": "El maestro de artes marciales Shang-Chi se enfrenta al pasado que creía haber dejado atrás cuando se ve envuelto en la red de la misteriosa organización de los Diez Anillos."
+    },
+    {
+        "ordenHistoria": 30,
+        "ordenSalida": 29,
+        "nombre": "Eternals",
+        "year": 2021,
+        "imagen": "Eternals",
+        "trailer": "https://www.youtube.com/embed/MKWXuj3ZYf0",
+        "sinopsis": "Los Eternos son una raza de seres inmortales con poderes sobrehumanos que han vivido en secreto en la Tierra durante miles de años. Aunque nunca han intervenido en el destino de la población, ahora una amenaza se cierne sobre la humanidad."
+    },
+    {
+        "ordenHistoria": 32,
+        "ordenSalida": 30,
+        "nombre": "Hawkeye",
+        "year": 2021,
+        "imagen": "hawkeye",
+        "trailer": "https://www.youtube.com/embed/eLb5trpCt9M",
+        "sinopsis": "Un año después de los eventos de Avengers: Endgame (2019), Clint Barton debe trabajar junto con la joven Kate Bishop para enfrentarse a los enemigos de su tiempo pasado como Ronin para poder volver con su familia a tiempo para Navidad."
+    },
+    {
+        "ordenHistoria": 29,
+        "ordenSalida": 31,
+        "nombre": "Spider-Man: No Way Home",
+        "year": 2021,
+        "imagen": "Spider_Man_No_Way_Home",
+        "trailer": "https://www.youtube.com/embed/z70zo9gQUKA",
+        "sinopsis": "Tras descubrirse la identidad secreta de Peter Parker como Spider-Man, la vida del joven se vuelve una locura. Peter decide pedirle ayuda a Doctor Strange para recuperar su vida. Pero algo sale mal y provoca una fractura en el multiverso."
+    },
+    {
+        "ordenHistoria": 34,
+        "ordenSalida": 32,
+        "nombre": "Moon Knight",
+        "year": 2022,
+        "imagen": "Moon_Night",
+        "trailer": "https://www.youtube.com/embed/0STDZqXCTxs",
+        "sinopsis": "Steven Grant (Oscar Isaac) un empleado de una tienda de regalos padece de afecciones en la memoria, quedándose en blanco o trayéndole recuerdos de otra vida. Hasta que descubre una verdad que le cambiara la vida por completo y le hará darse cuenta de la causa de sus afecciones de memoria."
+    },
+    {
+        "ordenHistoria": 33,
+        "ordenSalida": 33,
+        "nombre": "Doctor Strange in the Multiverse of Madness",
+        "year": 2022,
+        "imagen": "Doctor_Strange_en_el_multiverso_de_la_locura",
+        "trailer": "https://www.youtube.com/embed/cFHjZfy50Kk",
+        "sinopsis": "El Dr. Stephen Strange abre un portal al multiverso al utilizar un hechizo prohibido. Ahora, su equipo debe enfrentarse a una amenaza que podría destruirlo todo."
+    },
+    {
+        "ordenHistoria": 35,
+        "ordenSalida": 34,
+        "nombre": "Ms. Marvel",
+        "year": 2022,
+        "imagen": "ms_marvel",
+        "trailer": "https://www.youtube.com/embed/fH3gc-kr8Rc",
+        "sinopsis": "Kamala Khan, una fan de 16 años de los Vengadores, particularmente de Carol Danvers, lucha por encajar hasta que obtiene sus propios poderes."
+    },
+    {
+        "ordenHistoria": 36,
+        "ordenSalida": 35,
+        "nombre": "Thor: Love and Thunder",
+        "year": 2022,
+        "imagen": "Thor_Love_and_Thunder",
+        "trailer": "https://www.youtube.com/embed/pR6pOzwP2Vo",
+        "sinopsis": "Thor está buscando la paz interior, pero la irrupción de Gorr, el asesino de dioses, le obliga a volver al combate. Thor recluta a la Reina Valkiria, Korg y su exnovia, Jane Foster, para que lo ayuden a evitar la extinción de los dioses."
+    }
+]
